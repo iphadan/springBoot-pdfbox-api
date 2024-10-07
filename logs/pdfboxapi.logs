@@ -1,0 +1,921 @@
+2024-10-06T00:09:26.181+03:00  INFO 32388 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 32388 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:09:26.183+03:00  INFO 32388 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:09:26.244+03:00  INFO 32388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:09:26.244+03:00  INFO 32388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:09:27.596+03:00  INFO 32388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 3000 (http)
+2024-10-06T00:09:27.610+03:00  INFO 32388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:09:27.611+03:00  INFO 32388 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:09:27.671+03:00  INFO 32388 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:09:27.671+03:00  INFO 32388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1416 ms
+2024-10-06T00:09:28.050+03:00  INFO 32388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:09:28.072+03:00  WARN 32388 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-06T00:09:28.093+03:00  INFO 32388 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-06T00:09:28.113+03:00 ERROR 32388 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3000 or configure this application to listen on another port.
+
+2024-10-06T00:09:54.161+03:00  INFO 8080 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 8080 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:09:54.164+03:00  INFO 8080 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:09:54.231+03:00  INFO 8080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:09:54.231+03:00  INFO 8080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:09:55.395+03:00  INFO 8080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:09:55.407+03:00  INFO 8080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:09:55.407+03:00  INFO 8080 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:09:55.487+03:00  INFO 8080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:09:55.488+03:00  INFO 8080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1256 ms
+2024-10-06T00:09:55.925+03:00  INFO 8080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:09:55.974+03:00  INFO 8080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:09:55.987+03:00  INFO 8080 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.37 seconds (process running for 2.833)
+2024-10-06T00:38:43.316+03:00  INFO 16020 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 16020 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:38:43.318+03:00  INFO 16020 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:38:43.362+03:00  INFO 16020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:38:43.366+03:00  INFO 16020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:38:44.256+03:00  INFO 16020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:38:44.267+03:00  INFO 16020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:38:44.268+03:00  INFO 16020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:38:44.314+03:00  INFO 16020 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:38:44.314+03:00  INFO 16020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2024-10-06T00:38:44.658+03:00  INFO 16020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:38:44.691+03:00  INFO 16020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:38:44.699+03:00  INFO 16020 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.779 seconds (process running for 2.105)
+2024-10-06T00:40:22.706+03:00  INFO 10784 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 10784 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:40:22.708+03:00  INFO 10784 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:40:22.760+03:00  INFO 10784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:40:22.760+03:00  INFO 10784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:40:23.648+03:00  INFO 10784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:40:23.658+03:00  INFO 10784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:40:23.658+03:00  INFO 10784 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:40:23.711+03:00  INFO 10784 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:40:23.711+03:00  INFO 10784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 950 ms
+2024-10-06T00:40:24.080+03:00  INFO 10784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:40:24.113+03:00  INFO 10784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:40:24.122+03:00  INFO 10784 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.828 seconds (process running for 2.186)
+2024-10-06T00:42:18.106+03:00  INFO 10784 --- [http-nio-8000-exec-5] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T00:42:18.107+03:00  INFO 10784 --- [http-nio-8000-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T00:42:18.107+03:00  INFO 10784 --- [http-nio-8000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-06T00:42:18.253+03:00 ERROR 10784 --- [http-nio-8000-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/pdfbox] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.pdfbox.api.services.CreatePDFService.createEmptyPDF(String)" because "this.createPDFService" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.pdfbox.api.services.CreatePDFService.createEmptyPDF(String)" because "this.createPDFService" is null
+	at com.pdfbox.api.controllers.CreatePDFController.createEmptyPDF(CreatePDFController.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-10-06T00:44:07.234+03:00  INFO 3344 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 3344 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:44:07.236+03:00  INFO 3344 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:44:07.296+03:00  INFO 3344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:44:07.296+03:00  INFO 3344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:44:08.260+03:00  INFO 3344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:44:08.268+03:00  INFO 3344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:44:08.268+03:00  INFO 3344 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:44:08.334+03:00  INFO 3344 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:44:08.335+03:00  INFO 3344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
+2024-10-06T00:44:08.669+03:00  INFO 3344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:44:08.701+03:00  INFO 3344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:44:08.709+03:00  INFO 3344 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.922 seconds (process running for 2.301)
+2024-10-06T00:44:21.827+03:00  INFO 3344 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T00:44:21.827+03:00  INFO 3344 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T00:44:21.828+03:00  INFO 3344 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T00:44:21.929+03:00 ERROR 3344 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/pdfbox] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.pdfbox.api.services.CreatePDFService.createEmptyPDF(String)" because "this.createPDFService" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.pdfbox.api.services.CreatePDFService.createEmptyPDF(String)" because "this.createPDFService" is null
+	at com.pdfbox.api.controllers.CreatePDFController.createEmptyPDF(CreatePDFController.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-10-06T00:45:39.844+03:00  INFO 1996 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 1996 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:45:39.847+03:00  INFO 1996 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:45:39.895+03:00  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:45:39.895+03:00  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:45:40.767+03:00  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:45:40.776+03:00  INFO 1996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:45:40.776+03:00  INFO 1996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:45:40.818+03:00  INFO 1996 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:45:40.820+03:00  INFO 1996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2024-10-06T00:45:41.137+03:00  INFO 1996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:45:41.170+03:00  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:45:41.180+03:00  INFO 1996 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.73 seconds (process running for 2.075)
+2024-10-06T00:45:46.735+03:00  INFO 1996 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T00:45:46.736+03:00  INFO 1996 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T00:45:46.737+03:00  INFO 1996 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T00:47:33.015+03:00  INFO 1412 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 1412 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:47:33.016+03:00  INFO 1412 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:47:33.066+03:00  INFO 1412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:47:33.066+03:00  INFO 1412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:47:33.936+03:00  INFO 1412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:47:33.944+03:00  INFO 1412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:47:33.945+03:00  INFO 1412 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:47:33.998+03:00  INFO 1412 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:47:33.999+03:00  INFO 1412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+2024-10-06T00:47:34.314+03:00  INFO 1412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:47:34.344+03:00  INFO 1412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:47:34.354+03:00  INFO 1412 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.727 seconds (process running for 2.074)
+2024-10-06T00:48:02.210+03:00  INFO 1412 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T00:48:02.210+03:00  INFO 1412 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T00:48:02.211+03:00  INFO 1412 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T00:50:21.516+03:00  WARN 1412 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T00:50:24.895+03:00  INFO 24412 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 24412 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T00:50:24.897+03:00  INFO 24412 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T00:50:24.941+03:00  INFO 24412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T00:50:24.942+03:00  INFO 24412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T00:50:25.842+03:00  INFO 24412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T00:50:25.853+03:00  INFO 24412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T00:50:25.854+03:00  INFO 24412 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T00:50:25.904+03:00  INFO 24412 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T00:50:25.904+03:00  INFO 24412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2024-10-06T00:50:26.230+03:00  INFO 24412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T00:50:26.266+03:00  INFO 24412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T00:50:26.277+03:00  INFO 24412 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.819 seconds (process running for 2.157)
+2024-10-06T00:50:30.589+03:00  INFO 24412 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T00:50:30.590+03:00  INFO 24412 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T00:50:30.590+03:00  INFO 24412 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-06T00:57:51.441+03:00  WARN 24412 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T01:03:10.433+03:00  INFO 19372 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 19372 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:03:10.435+03:00  INFO 19372 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:03:10.487+03:00  INFO 19372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:03:10.487+03:00  INFO 19372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:03:11.445+03:00  INFO 19372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:03:11.454+03:00  INFO 19372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:03:11.454+03:00  INFO 19372 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:03:11.509+03:00  INFO 19372 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:03:11.510+03:00  INFO 19372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-10-06T01:03:11.868+03:00  INFO 19372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:03:11.904+03:00  INFO 19372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:03:11.915+03:00  INFO 19372 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.976 seconds (process running for 2.344)
+2024-10-06T01:03:59.376+03:00  INFO 17720 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 17720 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:03:59.377+03:00  INFO 17720 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:03:59.424+03:00  INFO 17720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:03:59.424+03:00  INFO 17720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:04:00.452+03:00  INFO 17720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:04:00.462+03:00  INFO 17720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:04:00.463+03:00  INFO 17720 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:04:00.507+03:00  INFO 17720 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:04:00.507+03:00  INFO 17720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-10-06T01:04:00.853+03:00  INFO 17720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:04:00.889+03:00  INFO 17720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:04:00.897+03:00  INFO 17720 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.91 seconds (process running for 2.274)
+2024-10-06T01:05:09.228+03:00  INFO 17720 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:05:09.229+03:00  INFO 17720 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:05:09.230+03:00  INFO 17720 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:09:36.446+03:00  INFO 7920 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 7920 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:09:36.448+03:00  INFO 7920 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:09:36.492+03:00  INFO 7920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:09:36.493+03:00  INFO 7920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:09:37.412+03:00  INFO 7920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:09:37.423+03:00  INFO 7920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:09:37.423+03:00  INFO 7920 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:09:37.475+03:00  INFO 7920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:09:37.475+03:00  INFO 7920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 982 ms
+2024-10-06T01:09:37.795+03:00  INFO 7920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:09:37.825+03:00  INFO 7920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:09:37.833+03:00  INFO 7920 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.779 seconds (process running for 2.157)
+2024-10-06T01:10:21.607+03:00  INFO 28724 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 28724 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:10:21.609+03:00  INFO 28724 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:10:21.654+03:00  INFO 28724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:10:21.655+03:00  INFO 28724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:10:22.485+03:00  INFO 28724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:10:22.494+03:00  INFO 28724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:10:22.495+03:00  INFO 28724 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:10:22.551+03:00  INFO 28724 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:10:22.551+03:00  INFO 28724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2024-10-06T01:10:22.913+03:00  INFO 28724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:10:22.942+03:00  INFO 28724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:10:22.950+03:00  INFO 28724 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.736 seconds (process running for 2.071)
+2024-10-06T01:10:35.129+03:00  INFO 28724 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:10:35.130+03:00  INFO 28724 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:10:35.131+03:00  INFO 28724 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:14:37.655+03:00  INFO 11504 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 11504 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:14:37.658+03:00  INFO 11504 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:14:37.715+03:00  INFO 11504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:14:37.715+03:00  INFO 11504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:14:38.619+03:00  INFO 11504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:14:38.629+03:00  INFO 11504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:14:38.629+03:00  INFO 11504 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:14:38.679+03:00  INFO 11504 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:14:38.680+03:00  INFO 11504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 963 ms
+2024-10-06T01:14:39.011+03:00  INFO 11504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:14:39.041+03:00  INFO 11504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:14:39.051+03:00  INFO 11504 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.796 seconds (process running for 2.138)
+2024-10-06T01:14:44.861+03:00  INFO 11504 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:14:44.862+03:00  INFO 11504 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:14:44.863+03:00  INFO 11504 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:33:26.785+03:00  INFO 29860 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 29860 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:33:26.787+03:00  INFO 29860 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:33:26.845+03:00  INFO 29860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:33:26.845+03:00  INFO 29860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:33:27.709+03:00  INFO 29860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:33:27.717+03:00  INFO 29860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:33:27.717+03:00  INFO 29860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:33:27.773+03:00  INFO 29860 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:33:27.774+03:00  INFO 29860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 929 ms
+2024-10-06T01:33:28.115+03:00  INFO 29860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:33:28.149+03:00  INFO 29860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:33:28.158+03:00  INFO 29860 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.78 seconds (process running for 2.111)
+2024-10-06T01:34:45.773+03:00  INFO 26248 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 26248 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:34:45.775+03:00  INFO 26248 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:34:45.821+03:00  INFO 26248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:34:45.821+03:00  INFO 26248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:34:46.740+03:00  INFO 26248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:34:46.750+03:00  INFO 26248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:34:46.751+03:00  INFO 26248 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:34:46.801+03:00  INFO 26248 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:34:46.802+03:00  INFO 26248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
+2024-10-06T01:34:47.114+03:00  INFO 26248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:34:47.144+03:00  INFO 26248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:34:47.152+03:00  INFO 26248 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.784 seconds (process running for 2.127)
+2024-10-06T01:37:06.812+03:00  INFO 3748 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 3748 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:37:06.814+03:00  INFO 3748 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:37:06.858+03:00  INFO 3748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:37:06.859+03:00  INFO 3748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:37:07.766+03:00  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:37:07.776+03:00  INFO 3748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:37:07.777+03:00  INFO 3748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:37:07.823+03:00  INFO 3748 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:37:07.823+03:00  INFO 3748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+2024-10-06T01:37:08.146+03:00  INFO 3748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:37:08.175+03:00  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:37:08.183+03:00  INFO 3748 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.801 seconds (process running for 2.141)
+2024-10-06T01:37:23.176+03:00  INFO 3748 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:37:23.176+03:00  INFO 3748 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:37:23.177+03:00  INFO 3748 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:37:23.218+03:00  WARN 3748 --- [http-nio-8000-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-06T01:40:42.713+03:00  INFO 20432 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 20432 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:40:42.715+03:00  INFO 20432 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:40:42.764+03:00  INFO 20432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:40:42.764+03:00  INFO 20432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:40:43.624+03:00  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:40:43.632+03:00  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:40:43.633+03:00  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:40:43.682+03:00  INFO 20432 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:40:43.683+03:00  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 918 ms
+2024-10-06T01:40:44.025+03:00  INFO 20432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:40:44.058+03:00  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:40:44.065+03:00  INFO 20432 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.748 seconds (process running for 2.081)
+2024-10-06T01:40:49.465+03:00  INFO 20432 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:40:49.465+03:00  INFO 20432 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:40:49.466+03:00  INFO 20432 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:46:04.977+03:00  INFO 29748 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 29748 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:46:04.979+03:00  INFO 29748 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:46:05.034+03:00  INFO 29748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:46:05.034+03:00  INFO 29748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:46:05.971+03:00  INFO 29748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:46:05.981+03:00  INFO 29748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:46:05.981+03:00  INFO 29748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:46:06.048+03:00  INFO 29748 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:46:06.048+03:00  INFO 29748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2024-10-06T01:46:06.430+03:00  INFO 29748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:46:06.467+03:00  INFO 29748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:46:06.477+03:00  INFO 29748 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.897 seconds (process running for 2.223)
+2024-10-06T01:46:24.284+03:00  INFO 29748 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:46:24.284+03:00  INFO 29748 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:46:24.288+03:00  INFO 29748 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T01:49:43.106+03:00  INFO 28224 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 28224 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:49:43.109+03:00  INFO 28224 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:49:43.164+03:00  INFO 28224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:49:43.164+03:00  INFO 28224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:49:44.182+03:00  INFO 28224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:49:44.190+03:00  INFO 28224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:49:44.190+03:00  INFO 28224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:49:44.233+03:00  INFO 28224 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:49:44.233+03:00  INFO 28224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2024-10-06T01:49:44.599+03:00  INFO 28224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:49:44.630+03:00  INFO 28224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:49:44.638+03:00  INFO 28224 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.006 seconds (process running for 2.449)
+2024-10-06T01:51:16.127+03:00  INFO 28224 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:51:16.127+03:00  INFO 28224 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:51:16.129+03:00  INFO 28224 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T01:53:32.656+03:00  INFO 27600 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 27600 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:53:32.658+03:00  INFO 27600 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:53:32.708+03:00  INFO 27600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:53:32.709+03:00  INFO 27600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:53:33.569+03:00  INFO 27600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:53:33.578+03:00  INFO 27600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:53:33.579+03:00  INFO 27600 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:53:33.624+03:00  INFO 27600 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:53:33.624+03:00  INFO 27600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 915 ms
+2024-10-06T01:53:33.949+03:00  INFO 27600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:53:33.980+03:00  INFO 27600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:53:33.996+03:00  INFO 27600 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.722 seconds (process running for 2.109)
+2024-10-06T01:53:42.434+03:00  INFO 27600 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:53:42.434+03:00  INFO 27600 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:53:42.435+03:00  INFO 27600 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T01:55:00.256+03:00  INFO 19716 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 19716 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T01:55:00.258+03:00  INFO 19716 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T01:55:00.301+03:00  INFO 19716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T01:55:00.302+03:00  INFO 19716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T01:55:01.133+03:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T01:55:01.142+03:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T01:55:01.143+03:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T01:55:01.189+03:00  INFO 19716 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T01:55:01.190+03:00  INFO 19716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 888 ms
+2024-10-06T01:55:01.488+03:00  INFO 19716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T01:55:01.522+03:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T01:55:01.531+03:00  INFO 19716 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.67 seconds (process running for 2.017)
+2024-10-06T01:55:05.410+03:00  INFO 19716 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T01:55:05.410+03:00  INFO 19716 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T01:55:05.411+03:00  INFO 19716 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T02:00:08.947+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.948+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.948+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.948+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.948+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.948+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.949+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.951+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.951+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.951+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.952+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.953+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.954+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.955+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:08.955+03:00  WARN 19716 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T02:00:41.704+03:00  INFO 13268 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 13268 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T02:00:41.706+03:00  INFO 13268 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T02:00:41.756+03:00  INFO 13268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T02:00:41.756+03:00  INFO 13268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T02:00:42.675+03:00  INFO 13268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T02:00:42.684+03:00  INFO 13268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T02:00:42.684+03:00  INFO 13268 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T02:00:42.735+03:00  INFO 13268 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T02:00:42.736+03:00  INFO 13268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 978 ms
+2024-10-06T02:00:43.115+03:00  INFO 13268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T02:00:43.146+03:00  INFO 13268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T02:00:43.154+03:00  INFO 13268 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.838 seconds (process running for 2.237)
+2024-10-06T02:00:50.328+03:00  INFO 13268 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T02:00:50.328+03:00  INFO 13268 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T02:00:50.330+03:00  INFO 13268 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T07:22:24.919+03:00  INFO 2184 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 2184 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T07:22:24.923+03:00  INFO 2184 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T07:22:24.996+03:00  INFO 2184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T07:22:24.996+03:00  INFO 2184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T07:22:26.237+03:00  INFO 2184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T07:22:26.250+03:00  INFO 2184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T07:22:26.251+03:00  INFO 2184 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T07:22:26.321+03:00  INFO 2184 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T07:22:26.322+03:00  INFO 2184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1324 ms
+2024-10-06T07:22:26.752+03:00  INFO 2184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T07:22:26.795+03:00  INFO 2184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T07:22:26.805+03:00  INFO 2184 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.496 seconds (process running for 3.005)
+2024-10-06T07:22:35.141+03:00  INFO 2184 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T07:22:35.142+03:00  INFO 2184 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T07:22:35.144+03:00  INFO 2184 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T07:36:13.289+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.290+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.290+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.290+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.290+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.290+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.291+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.292+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.292+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.293+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.293+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.294+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.294+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.295+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.295+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.295+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.295+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.296+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.297+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.297+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.298+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.299+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.299+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.302+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.303+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.304+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.304+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.305+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.305+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.306+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.307+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.307+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.308+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.308+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.308+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.309+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.309+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.310+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.310+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.311+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.313+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.313+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.313+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:36:13.313+03:00  WARN 2184 --- [Finalizer] org.apache.pdfbox.cos.COSDocument        : Warning: You did not close a PDF Document
+2024-10-06T07:39:07.259+03:00  INFO 29012 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 29012 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T07:39:07.262+03:00  INFO 29012 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T07:39:07.326+03:00  INFO 29012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T07:39:07.326+03:00  INFO 29012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T07:39:08.468+03:00  INFO 29012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T07:39:08.484+03:00  INFO 29012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T07:39:08.484+03:00  INFO 29012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T07:39:08.548+03:00  INFO 29012 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T07:39:08.548+03:00  INFO 29012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1221 ms
+2024-10-06T07:39:08.979+03:00  INFO 29012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T07:39:09.028+03:00  INFO 29012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T07:39:09.040+03:00  INFO 29012 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.315 seconds (process running for 2.809)
+2024-10-06T07:39:17.991+03:00  INFO 29012 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T07:39:17.992+03:00  INFO 29012 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T07:39:17.993+03:00  INFO 29012 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T07:39:51.706+03:00  INFO 31612 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 31612 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T07:39:51.708+03:00  INFO 31612 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T07:39:51.780+03:00  INFO 31612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T07:39:51.781+03:00  INFO 31612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T07:39:52.987+03:00  INFO 31612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T07:39:52.998+03:00  INFO 31612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T07:39:52.998+03:00  INFO 31612 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T07:39:53.052+03:00  INFO 31612 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T07:39:53.053+03:00  INFO 31612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1270 ms
+2024-10-06T07:39:53.464+03:00  INFO 31612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T07:39:53.500+03:00  INFO 31612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T07:39:53.512+03:00  INFO 31612 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.372 seconds (process running for 2.855)
+2024-10-06T07:39:58.651+03:00  INFO 31612 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T07:39:58.651+03:00  INFO 31612 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T07:39:58.653+03:00  INFO 31612 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T07:44:42.373+03:00  INFO 32844 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 32844 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T07:44:42.375+03:00  INFO 32844 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T07:44:42.441+03:00  INFO 32844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T07:44:42.442+03:00  INFO 32844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T07:44:43.606+03:00  INFO 32844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T07:44:43.617+03:00  INFO 32844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T07:44:43.618+03:00  INFO 32844 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T07:44:43.681+03:00  INFO 32844 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T07:44:43.681+03:00  INFO 32844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1239 ms
+2024-10-06T07:44:44.087+03:00  INFO 32844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T07:44:44.128+03:00  INFO 32844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T07:44:44.138+03:00  INFO 32844 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.299 seconds (process running for 2.77)
+2024-10-06T07:44:52.736+03:00  INFO 32844 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T07:44:52.737+03:00  INFO 32844 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T07:44:52.738+03:00  INFO 32844 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T08:12:23.200+03:00  INFO 9136 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 9136 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T08:12:23.203+03:00  INFO 9136 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T08:12:23.275+03:00  INFO 9136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T08:12:23.275+03:00  INFO 9136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T08:12:24.560+03:00  INFO 9136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T08:12:24.572+03:00  INFO 9136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T08:12:24.572+03:00  INFO 9136 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T08:12:24.631+03:00  INFO 9136 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T08:12:24.631+03:00  INFO 9136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2024-10-06T08:12:24.835+03:00  WARN 9136 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToPages(CreatePDFRequest)
+to {POST [/examples/splitPDFToPages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+2024-10-06T08:12:24.839+03:00  INFO 9136 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-06T08:12:24.852+03:00  INFO 9136 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-06T08:12:24.883+03:00 ERROR 9136 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToPages(CreatePDFRequest)
+to {POST [/examples/splitPDFToPages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.pdfbox.api.ApiApplication.main(ApiApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToPages(CreatePDFRequest)
+to {POST [/examples/splitPDFToPages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 21 common frames omitted
+
+2024-10-06T08:12:45.594+03:00  INFO 23220 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 23220 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T08:12:45.596+03:00  INFO 23220 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T08:12:45.665+03:00  INFO 23220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T08:12:45.666+03:00  INFO 23220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T08:12:46.861+03:00  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T08:12:46.872+03:00  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T08:12:46.873+03:00  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T08:12:46.936+03:00  INFO 23220 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T08:12:46.936+03:00  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1269 ms
+2024-10-06T08:12:47.353+03:00  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T08:12:47.388+03:00  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T08:12:47.402+03:00  INFO 23220 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.419 seconds (process running for 2.908)
+2024-10-06T08:14:56.731+03:00  INFO 23220 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T08:14:56.732+03:00  INFO 23220 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T08:14:56.735+03:00  INFO 23220 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T08:14:56.809+03:00  WARN 23220 --- [http-nio-8000-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-06T08:18:03.652+03:00  INFO 22868 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 22868 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T08:18:03.654+03:00  INFO 22868 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T08:18:03.723+03:00  INFO 22868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T08:18:03.723+03:00  INFO 22868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T08:18:05.022+03:00  INFO 22868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T08:18:05.035+03:00  INFO 22868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T08:18:05.035+03:00  INFO 22868 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T08:18:05.096+03:00  INFO 22868 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T08:18:05.097+03:00  INFO 22868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1372 ms
+2024-10-06T08:18:05.576+03:00  INFO 22868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T08:18:05.619+03:00  INFO 22868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T08:18:05.632+03:00  INFO 22868 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.543 seconds (process running for 3.031)
+2024-10-06T08:18:21.828+03:00  INFO 22868 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T08:18:21.828+03:00  INFO 22868 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T08:18:21.829+03:00  INFO 22868 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T08:21:46.299+03:00  INFO 31420 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 31420 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T08:21:46.302+03:00  INFO 31420 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T08:21:46.373+03:00  INFO 31420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T08:21:46.373+03:00  INFO 31420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T08:21:47.518+03:00  INFO 31420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T08:21:47.533+03:00  INFO 31420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T08:21:47.533+03:00  INFO 31420 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T08:21:47.597+03:00  INFO 31420 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T08:21:47.598+03:00  INFO 31420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1224 ms
+2024-10-06T08:21:48.003+03:00  INFO 31420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T08:21:48.042+03:00  INFO 31420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T08:21:48.051+03:00  INFO 31420 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.264 seconds (process running for 2.712)
+2024-10-06T08:22:00.166+03:00  INFO 31420 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T08:22:00.167+03:00  INFO 31420 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T08:22:00.170+03:00  INFO 31420 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T09:20:54.882+03:00  INFO 7976 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 7976 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:20:54.884+03:00  INFO 7976 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:20:54.951+03:00  INFO 7976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:20:54.951+03:00  INFO 7976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:20:56.269+03:00  INFO 7976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:20:56.283+03:00  INFO 7976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:20:56.284+03:00  INFO 7976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:20:56.365+03:00  INFO 7976 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:20:56.366+03:00  INFO 7976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1413 ms
+2024-10-06T09:20:56.636+03:00  WARN 7976 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#deleteSinglePagePDF(SinglePageDeleteRequest)
+to {POST [/examples/splitPDFToRangePages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+2024-10-06T09:20:56.640+03:00  INFO 7976 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-06T09:20:56.656+03:00  INFO 7976 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-06T09:20:56.686+03:00 ERROR 7976 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#deleteSinglePagePDF(SinglePageDeleteRequest)
+to {POST [/examples/splitPDFToRangePages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.pdfbox.api.ApiApplication.main(ApiApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'createPDFController' method 
+com.pdfbox.api.controllers.CreatePDFController#deleteSinglePagePDF(SinglePageDeleteRequest)
+to {POST [/examples/splitPDFToRangePages]}: There is already 'createPDFController' bean method
+com.pdfbox.api.controllers.CreatePDFController#splitPDFToRangePages(RangeSplitRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 21 common frames omitted
+
+2024-10-06T09:22:19.803+03:00  INFO 18512 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 18512 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:22:19.806+03:00  INFO 18512 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:22:19.888+03:00  INFO 18512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:22:19.889+03:00  INFO 18512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:22:21.156+03:00  INFO 18512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:22:21.172+03:00  INFO 18512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:22:21.173+03:00  INFO 18512 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:22:21.240+03:00  INFO 18512 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:22:21.240+03:00  INFO 18512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1351 ms
+2024-10-06T09:22:21.669+03:00  INFO 18512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:22:21.721+03:00  INFO 18512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:22:21.734+03:00  INFO 18512 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.525 seconds (process running for 3.096)
+2024-10-06T09:23:23.830+03:00  INFO 18512 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T09:23:23.831+03:00  INFO 18512 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T09:23:23.835+03:00  INFO 18512 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-10-06T09:32:19.071+03:00  INFO 2572 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 2572 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:32:19.073+03:00  INFO 2572 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:32:19.143+03:00  INFO 2572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:32:19.143+03:00  INFO 2572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:32:20.423+03:00  INFO 2572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:32:20.435+03:00  INFO 2572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:32:20.435+03:00  INFO 2572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:32:20.499+03:00  INFO 2572 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:32:20.499+03:00  INFO 2572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2024-10-06T09:32:20.969+03:00  INFO 2572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:32:21.015+03:00  INFO 2572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:32:21.031+03:00  INFO 2572 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.533 seconds (process running for 3.045)
+2024-10-06T09:33:35.252+03:00  INFO 2572 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T09:33:35.254+03:00  INFO 2572 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T09:33:35.257+03:00  INFO 2572 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-06T09:34:31.993+03:00  INFO 21248 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 21248 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:34:31.996+03:00  INFO 21248 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:34:32.063+03:00  INFO 21248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:34:32.064+03:00  INFO 21248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:34:33.392+03:00  INFO 21248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:34:33.408+03:00  INFO 21248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:34:33.409+03:00  INFO 21248 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:34:33.486+03:00  INFO 21248 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:34:33.487+03:00  INFO 21248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1423 ms
+2024-10-06T09:34:33.967+03:00  INFO 21248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:34:34.014+03:00  INFO 21248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:34:34.030+03:00  INFO 21248 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 2.632 seconds (process running for 3.157)
+2024-10-06T09:34:43.854+03:00  INFO 23300 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 23300 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:34:43.857+03:00  INFO 23300 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:34:43.934+03:00  INFO 23300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:34:43.935+03:00  INFO 23300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:34:45.473+03:00  INFO 23300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:34:45.486+03:00  INFO 23300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:34:45.487+03:00  INFO 23300 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:34:45.550+03:00  INFO 23300 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:34:45.551+03:00  INFO 23300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1616 ms
+2024-10-06T09:34:46.049+03:00  INFO 23300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:34:46.097+03:00  INFO 23300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:34:46.114+03:00  INFO 23300 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 3.033 seconds (process running for 3.627)
+2024-10-06T09:34:57.050+03:00  INFO 23300 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T09:34:57.051+03:00  INFO 23300 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T09:34:57.055+03:00  INFO 23300 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-10-06T09:55:58.093+03:00  INFO 19208 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 19208 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:55:58.095+03:00  INFO 19208 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:55:58.147+03:00  INFO 19208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:55:58.147+03:00  INFO 19208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:55:59.097+03:00  INFO 19208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:55:59.106+03:00  INFO 19208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:55:59.107+03:00  INFO 19208 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:55:59.158+03:00  INFO 19208 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:55:59.159+03:00  INFO 19208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2024-10-06T09:55:59.598+03:00  INFO 19208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:55:59.644+03:00  INFO 19208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:55:59.654+03:00  INFO 19208 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.975 seconds (process running for 2.315)
+2024-10-06T09:56:05.377+03:00  INFO 19208 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T09:56:05.377+03:00  INFO 19208 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T09:56:05.378+03:00  INFO 19208 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T09:56:22.187+03:00  INFO 2104 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 2104 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:56:22.189+03:00  INFO 2104 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:56:22.238+03:00  INFO 2104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:56:22.238+03:00  INFO 2104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:56:23.134+03:00  INFO 2104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:56:23.142+03:00  INFO 2104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:56:23.142+03:00  INFO 2104 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:56:23.195+03:00  INFO 2104 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:56:23.195+03:00  INFO 2104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 956 ms
+2024-10-06T09:56:23.629+03:00  INFO 2104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:56:23.662+03:00  INFO 2104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:56:23.671+03:00  INFO 2104 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.895 seconds (process running for 2.238)
+2024-10-06T09:56:30.368+03:00  INFO 2104 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T09:56:30.368+03:00  INFO 2104 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T09:56:30.370+03:00  INFO 2104 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-06T09:57:33.491+03:00  INFO 18464 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 18464 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T09:57:33.494+03:00  INFO 18464 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T09:57:33.545+03:00  INFO 18464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T09:57:33.545+03:00  INFO 18464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T09:57:34.432+03:00  INFO 18464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T09:57:34.441+03:00  INFO 18464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T09:57:34.441+03:00  INFO 18464 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T09:57:34.482+03:00  INFO 18464 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T09:57:34.483+03:00  INFO 18464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 938 ms
+2024-10-06T09:57:34.817+03:00  INFO 18464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T09:57:34.851+03:00  INFO 18464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T09:57:34.860+03:00  INFO 18464 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.768 seconds (process running for 2.116)
+2024-10-06T10:15:02.074+03:00  INFO 14180 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 14180 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T10:15:02.076+03:00  INFO 14180 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T10:15:02.128+03:00  INFO 14180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T10:15:02.128+03:00  INFO 14180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T10:15:03.030+03:00  INFO 14180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T10:15:03.039+03:00  INFO 14180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T10:15:03.039+03:00  INFO 14180 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T10:15:03.083+03:00  INFO 14180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T10:15:03.083+03:00  INFO 14180 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2024-10-06T10:15:03.420+03:00  INFO 14180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T10:15:03.453+03:00  INFO 14180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T10:15:03.462+03:00  INFO 14180 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.796 seconds (process running for 2.137)
+2024-10-06T10:17:38.232+03:00  INFO 25200 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 25200 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T10:17:38.234+03:00  INFO 25200 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T10:17:38.288+03:00  INFO 25200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T10:17:38.288+03:00  INFO 25200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T10:17:39.256+03:00  INFO 25200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T10:17:39.265+03:00  INFO 25200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T10:17:39.265+03:00  INFO 25200 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T10:17:39.308+03:00  INFO 25200 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T10:17:39.309+03:00  INFO 25200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2024-10-06T10:17:39.660+03:00  INFO 25200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T10:17:39.692+03:00  INFO 25200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T10:17:39.703+03:00  INFO 25200 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.913 seconds (process running for 2.239)
+2024-10-06T10:19:08.343+03:00  INFO 25200 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T10:19:08.343+03:00  INFO 25200 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T10:19:08.344+03:00  INFO 25200 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T10:19:08.369+03:00  WARN 25200 --- [http-nio-8000-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-06T10:27:47.819+03:00  INFO 5504 --- [restartedMain] com.pdfbox.api.ApiApplication            : Starting ApiApplication using Java 17.0.9 with PID 5504 (D:\Projects\Spring\api\target\classes started by ephremd in D:\Projects\Spring\api)
+2024-10-06T10:27:47.821+03:00  INFO 5504 --- [restartedMain] com.pdfbox.api.ApiApplication            : The following 1 profile is active: "dev"
+2024-10-06T10:27:47.866+03:00  INFO 5504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T10:27:47.871+03:00  INFO 5504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T10:27:48.868+03:00  INFO 5504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-06T10:27:48.880+03:00  INFO 5504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T10:27:48.881+03:00  INFO 5504 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-10-06T10:27:48.935+03:00  INFO 5504 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-10-06T10:27:48.935+03:00  INFO 5504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1063 ms
+2024-10-06T10:27:49.298+03:00  INFO 5504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T10:27:49.332+03:00  INFO 5504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/api/pdfbox'
+2024-10-06T10:27:49.343+03:00  INFO 5504 --- [restartedMain] com.pdfbox.api.ApiApplication            : Started ApiApplication in 1.966 seconds (process running for 2.33)
+2024-10-06T10:27:58.880+03:00  INFO 5504 --- [http-nio-8000-exec-1] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T10:27:58.881+03:00  INFO 5504 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T10:27:58.882+03:00  INFO 5504 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

@@ -1,0 +1,14 @@
+server:
+  port: 8000
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  file:
+    name: logs/pdfboxapi.logs
+spring:
+  application:
+    pdf:
+      create_read:
+        path: ./pdfContainer
